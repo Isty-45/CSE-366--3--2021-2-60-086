@@ -14,6 +14,7 @@ Course code: CSE366
 Course title: Artificial Intelligence 
 Section: 3
 Enhanced Dynamic Robot Movement Simulation
+
 Creating node/State: 
 I have used priority queue data structure (Python's heapq module). It efficiently manages elements with associated priorities, allowing insertion with priority values and retrieval in ascending order of priority. The class includes methods for checking if the queue is empty, inserting elements with specified priorities, and retrieving the element with the highest priority. The Node class represents a state within a search tree, commonly used in algorithms like A* and UCS. It encapsulates information about the current state, parent node, action taken to reach this state, path cost from the start node, and battery level. It includes a comparison method (lt) for sorting nodes based on path costs, facilitating their ordered insertion into the priority queue.
 Environment:
