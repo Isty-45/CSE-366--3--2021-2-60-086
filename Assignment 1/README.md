@@ -9,14 +9,20 @@ To run the simulation, ensure you have Jupyter Notebook installed and open
 `robot_simulation.ipynb`.
 
 Name: Maherun Nessa Isty
+
 ID: 2021-2-60-86
+
 Course code: CSE366
+
 Course title: Artificial Intelligence 
+
 Section: 3
+
 Enhanced Dynamic Robot Movement Simulation
 
 Creating node/State: 
 I have used priority queue data structure (Python's heapq module). It efficiently manages elements with associated priorities, allowing insertion with priority values and retrieval in ascending order of priority. The class includes methods for checking if the queue is empty, inserting elements with specified priorities, and retrieving the element with the highest priority. The Node class represents a state within a search tree, commonly used in algorithms like A* and UCS. It encapsulates information about the current state, parent node, action taken to reach this state, path cost from the start node, and battery level. It includes a comparison method (lt) for sorting nodes based on path costs, facilitating their ordered insertion into the priority queue.
+
 Environment:
 The Environment class serves as a simulation framework for agent navigation in a grid-based environment. It provides methods for determining feasible actions, calculating new states resulting from actions, and checking if the agent has reached its goal. This enables the agent to navigate from an initial position to a specified goal while avoiding obstacles. The class is designed to support the development and testing of algorithms related to agent navigation, obstacle avoidance, and goal achievement in a simulated grid world. Here,I have attached two new attributes named state_requiring_charging and battery_comsumption. Also added a method to check if the grid is valid (not completely blocked by obstacles and has valid start and goal positions and ensures that both the start and goal positions are free spaces)
 New Attributes:
